@@ -1,13 +1,20 @@
 .root {
-    margin-left: 200px;;
-  min-height: 500px;
-  width: 500px;
+  margin-left: 200px;
+  width: 968px;
+  height: 879px;
   background: #ffffff;
   box-shadow: 0px 16px 48px rgba(0, 0, 0, 0.16);
   border-radius: 24px;
+  padding: 64px;
 
   .Heading {
-      height: 35px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 15px;
   }
 
   .Content {
@@ -20,5 +27,8 @@
     padding: 5px;
     cursor: pointer;
     margin-top: 50px;
+  }
+  .ButtonBase.active {
+    background-color: #f6dff7;
   }
 }

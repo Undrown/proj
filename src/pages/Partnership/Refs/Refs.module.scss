@@ -1,0 +1,82 @@
+.root {
+  text-align: left;
+
+  .text-also {
+    font-family: Trebuchet MS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .text-secondary {
+    font-family: Trebuchet MS;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+  }
+
+  .ref-link {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    box-sizing: border-box;
+    border-radius: 4px 4px 0px 0px;
+    width: 736px;
+    height: 56px;
+    padding: 20px;
+    margin-bottom: 25px;
+    text-align: left;
+  }
+
+  .copy-button {
+    margin-top: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+  .partners {
+    background: #f6f6f6;
+    border: 1px solid #cbcccd;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 25px;
+  }
+
+  .partners-title {
+    font-family: Trebuchet MS;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .partner-item {
+    color: #b79a67;
+  }
+
+  .load-more-button {
+    /* Accent1 */
+
+    background: #705ed8;
+    /* Accent1 */
+
+    border: 1px solid #705ed8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 382px;
+    height: 56px;
+    margin: auto;
+    text-align: center;
+
+    font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 55px;
+text-align: center;
+cursor: pointer;
+color: #FFFFFF;
+  }
+}
