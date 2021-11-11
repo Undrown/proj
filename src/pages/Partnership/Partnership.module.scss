@@ -24,11 +24,22 @@
   .ButtonBase {
     border-radius: 2px;
     border: 1px solid black;
-    padding: 5px;
+    padding: 16px;
     cursor: pointer;
     margin-top: 50px;
+    background: #ffffff;
+    border: 1px solid #f6dff7;
+    box-sizing: border-box;
+    border-radius: 12px 0px 0px 12px;
+    color: #705ed8;
   }
   .ButtonBase.active {
     background-color: #f6dff7;
+    color: #333333;
+  }
+
+  .ButtonRight {
+    box-sizing: border-box;
+    border-radius: 0px 12px 12px 0px;
   }
 }

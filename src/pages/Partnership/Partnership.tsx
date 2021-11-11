@@ -36,6 +36,7 @@ const Partnership = () => {
       <a
         className={classNames({
           [styles["ButtonBase"]]: true,
+          [styles["ButtonRight"]]: true,
           [styles["active"]]: activePage == 1,
         })}
         onClick={() => {
